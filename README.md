@@ -14,7 +14,17 @@ The devcaps project has been started for a couple of reasons:
 
 The devcaps handshake process is similar in execution to the way authentication is implemented in most web applications:
 
-__To be completed.__
+1. Check for a [devcaps cookie](#cookie-format).
+2. If the devcaps cookie does not exist, then run the [detection routine](#detection-routine).
 
 A [reference implementation](/devcaps/connect-devcaps) of this early version of the process has been written for the [Node.js](http://nodejs.org/) [Connect](http://senchalabs.github.com/connect/) framework.
 
+<a id="cookie-format" />
+## Cookie Format
+
+To be completed.
+
+<a id="detection-routine" />
+## Detection Routine
+
+To be completed.
