@@ -16,5 +16,5 @@ The devcaps handshake process is similar in execution to the way authentication 
 
 __To be completed.__
 
-A [reference implementation](/devcaps/express-devcaps) of this early version of the process has been written for [Node.js](http://nodejs.org/) [Express](http://expressjs.org/).
+A [reference implementation](/devcaps/connect-devcaps) of this early version of the process has been written for the [Node.js](http://nodejs.org/) [Connect](http://senchalabs.github.com/connect/) framework.
 
