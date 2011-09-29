@@ -26,7 +26,7 @@ The devcaps cookie is a string that contains data on the device capabilities tha
 
 The following are true with regards to the cookie:
 
-- A capability is defined using a [three-letter __alpha-only__ code](/devcaps/devcaps/wiki/Capability-Codes) (i.e., `DDW` for device width) followed by a value.
+- A capability is defined using a [three-letter __alpha-only__ code](/devcaps/devcaps/wiki/Capability-Codes) (i.e., `DSW` for device screen width) followed by a value.
 
 - Values are represented by integer values where possible:
 	- Available (1)
@@ -38,5 +38,7 @@ The following are true with regards to the cookie:
 
 <a id="detection-routine"></a>
 ## Detection Routine
+
+![](/devcaps/devcaps/raw/master/assets/devcaps-process.png)
 
 To be completed.
