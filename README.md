@@ -19,12 +19,22 @@ The devcaps handshake process is similar in execution to the way authentication 
 
 A [reference implementation](/devcaps/connect-devcaps) of this early version of the process has been written for the [Node.js](http://nodejs.org/) [Connect](http://senchalabs.github.com/connect/) framework.
 
-<a id="cookie-format" />
+<a id="cookie-format"></a>
 ## Cookie Format
 
-To be completed.
+The devcaps cookie is a string that contains data on the device capabilities that have been detected (based on what has been requested). 
 
-<a id="detection-routine" />
+The following are true with regards to the cookie:
+
+- A capability is defined using a three-letter code (i.e., `DDW` for device width) followed by a value.
+
+- Values are represented by integer values where possible:
+	- Available (1)
+	- Not Supported (0)
+
+- Multiple capabilities can be defined in the cookie.  Capabilities are delimited with a pipe (`|`) character.
+
+<a id="detection-routine"></a>
 ## Detection Routine
 
 To be completed.
