@@ -9,12 +9,15 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="500"
-   height="500"
+   width="450"
+   height="400"
    id="svg2"
    version="1.1"
    inkscape:version="0.47pre4 r22446"
-   sodipodi:docname="New document 1">
+   sodipodi:docname="devcaps-process.svg"
+   inkscape:export-filename="/development/projects/github/devcaps/devcaps/assets/devcaps-process.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
   <defs
      id="defs4">
     <marker
@@ -46,6 +49,13 @@
        sodipodi:type="inkscape:persp3d" />
     <inkscape:perspective
        id="perspective4143"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective4240"
        inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
        inkscape:vp_z="1 : 0.5 : 1"
        inkscape:vp_y="0 : 1000 : 0"
@@ -88,72 +98,19 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-52.046936,-88.760742)">
-    <g
-       id="g2829"
-       transform="translate(195.99503,-101.36674)">
-      <rect
-         style="fill:#b3ff80;fill-opacity:1;stroke:#9dac93;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
-         id="rect2831"
-         width="101.42857"
-         height="64.285713"
-         x="53.571426"
-         y="215.21933"
-         rx="5"
-         ry="5" />
-      <text
-         xml:space="preserve"
-         style="font-size:16.75208282px;font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Fabryka;-inkscape-font-specification:Fabryka"
-         x="104.28244"
-         y="251.60046"
-         id="text2833"><tspan
-           sodipodi:role="line"
-           id="tspan2835"
-           x="104.28244"
-           y="251.60046"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;font-family:Museo Sans;-inkscape-font-specification:Museo Sans">tablet</tspan></text>
-    </g>
-    <g
-       transform="translate(314.54129,-101.36674)"
-       id="g2837">
-      <rect
-         ry="5"
-         rx="5"
-         y="215.21933"
-         x="53.571426"
-         height="64.285713"
-         width="101.42857"
-         id="rect2839"
-         style="fill:#b3ff80;fill-opacity:1;stroke:#9dac93;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
-      <text
-         id="text2841"
-         y="242.70511"
-         x="104.28244"
-         style="font-size:16.75208282px;font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Fabryka;-inkscape-font-specification:Fabryka"
-         xml:space="preserve"><tspan
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;font-family:Museo Sans;-inkscape-font-specification:Museo Sans"
-           y="242.70511"
-           x="104.28244"
-           id="tspan2843"
-           sodipodi:role="line">handheld</tspan><tspan
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;font-family:Museo Sans;-inkscape-font-specification:Museo Sans"
-           y="263.6452"
-           x="104.28244"
-           sodipodi:role="line"
-           id="tspan2845">mobile</tspan></text>
-    </g>
+     transform="translate(-52.046936,-188.76074)">
     <g
        id="g2874"
-       transform="translate(77.448747,-151.70753)">
+       transform="matrix(1,0,0,1.0234865,-12.528475,-84.595875)">
       <rect
-         ry="5"
+         ry="4.8852625"
          rx="5"
-         y="392.13538"
-         x="52.546936"
-         height="246.46614"
-         width="340.70755"
+         y="392.13541"
+         x="78.546936"
+         height="254.46616"
+         width="314.70755"
          id="rect2847"
-         style="fill:#cccccc;fill-opacity:1;stroke:#999999;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+         style="fill:#cccccc;fill-opacity:1;stroke:#999999;stroke-width:0.98845965;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
       <text
          xml:space="preserve"
          style="font-size:16.75208282px;font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Fabryka;-inkscape-font-specification:Fabryka"
@@ -167,51 +124,108 @@
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;font-family:Museo Sans;-inkscape-font-specification:Museo Sans">application server</tspan></text>
     </g>
     <g
-       id="g2824"
-       transform="translate(77.448747,-101.36674)">
-      <rect
-         ry="5"
-         rx="5"
-         y="215.21933"
-         x="53.571426"
-         height="64.285713"
-         width="101.42857"
-         id="rect2818"
-         style="fill:#b3ff80;fill-opacity:1;stroke:#9dac93;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
-      <text
-         id="text2820"
-         y="251.60046"
-         x="104.28244"
-         style="font-size:16.75208282px;font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Fabryka;-inkscape-font-specification:Fabryka"
-         xml:space="preserve"><tspan
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;font-family:Museo Sans;-inkscape-font-specification:Museo Sans"
+       id="g4696"
+       transform="matrix(0.91431221,0,0,0.91431221,8.6055206,110.60174)">
+      <g
+         transform="translate(129.9358,-117.31207)"
+         id="g2829">
+        <rect
+           ry="5.4685917"
+           rx="5.4685917"
+           y="215.21933"
+           x="53.571426"
+           height="64.285713"
+           width="101.42857"
+           id="rect2831"
+           style="fill:#aaccff;fill-opacity:1;stroke:#2a7fff;stroke-width:1.09371829;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+        <text
+           id="text2833"
            y="251.60046"
            x="104.28244"
-           id="tspan2822"
-           sodipodi:role="line">desktop</tspan></text>
+           style="font-size:16.75208282px;font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Fabryka;-inkscape-font-specification:Fabryka"
+           xml:space="preserve"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;font-family:Museo Sans;-inkscape-font-specification:Museo Sans"
+             y="251.60046"
+             x="104.28244"
+             id="tspan2835"
+             sodipodi:role="line">tablet</tspan></text>
+      </g>
+      <g
+         id="g2837"
+         transform="translate(248.48206,-117.31207)">
+        <rect
+           style="fill:#aaccff;fill-opacity:1;stroke:#2a7fff;stroke-width:1.09371829;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+           id="rect2839"
+           width="101.42857"
+           height="64.285713"
+           x="53.571426"
+           y="215.21933"
+           rx="5.4685917"
+           ry="5.4685917" />
+        <text
+           xml:space="preserve"
+           style="font-size:16.75208282px;font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Fabryka;-inkscape-font-specification:Fabryka"
+           x="104.28244"
+           y="242.70511"
+           id="text2841"><tspan
+             sodipodi:role="line"
+             id="tspan2843"
+             x="104.28244"
+             y="242.70511"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;font-family:Museo Sans;-inkscape-font-specification:Museo Sans">handheld</tspan><tspan
+             id="tspan2845"
+             sodipodi:role="line"
+             x="104.28244"
+             y="263.6452"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;font-family:Museo Sans;-inkscape-font-specification:Museo Sans">mobile</tspan></text>
+      </g>
+      <g
+         transform="translate(11.389521,-117.31207)"
+         id="g2824">
+        <rect
+           style="fill:#aaccff;fill-opacity:1;stroke:#2a7fff;stroke-width:1.09371829;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+           id="rect2818"
+           width="101.42857"
+           height="64.285713"
+           x="53.571426"
+           y="215.21933"
+           rx="5.4685917"
+           ry="5.4685917" />
+        <text
+           xml:space="preserve"
+           style="font-size:16.75208282px;font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Fabryka;-inkscape-font-specification:Fabryka"
+           x="104.28244"
+           y="251.60046"
+           id="text2820"><tspan
+             sodipodi:role="line"
+             id="tspan2822"
+             x="104.28244"
+             y="251.60046"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;font-family:Museo Sans;-inkscape-font-specification:Museo Sans">desktop</tspan></text>
+      </g>
+      <path
+         id="path2887"
+         d="m 115.67523,166.33927 0,47.27073"
+         style="fill:none;stroke:#000000;stroke-width:1.09371829px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Lend)" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1.09371829px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Lend)"
+         d="m 234.22151,166.33927 0,47.27073"
+         id="path4123" />
+      <path
+         id="path4131"
+         d="m 352.76777,166.33927 0,47.27073"
+         style="fill:none;stroke:#000000;stroke-width:1.09371829px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Lend)" />
     </g>
-    <path
-       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Lend)"
-       d="m 181.73446,182.2846 0,47.27073"
-       id="path2887" />
-    <path
-       id="path4123"
-       d="m 300.28074,182.2846 0,47.27073"
-       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Lend)" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Lend)"
-       d="m 418.827,182.2846 0,47.27073"
-       id="path4131" />
     <g
        id="g4166"
-       transform="translate(143.51188,-140.90932)">
+       transform="translate(53.534658,-64.599525)">
       <rect
          ry="5"
          rx="5"
          y="440.73911"
-         x="16.947622"
+         x="43.524529"
          height="35.394798"
-         width="279.77991"
+         width="226.6261"
          id="rect4133"
          style="fill:#ffcc00;fill-opacity:1;stroke:#aa8800;stroke-width:0.99999994;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
       <text
@@ -229,14 +243,105 @@
    id="tspan4164">devcaps&quot; </tspan>cookie</tspan></text>
     </g>
     <g
-       transform="translate(143.51188,-57.347648)"
+       transform="translate(-6.0620364,-17.279095)"
        id="g4175">
       <rect
-         style="fill:#ffcc00;fill-opacity:1;stroke:#aa8800;stroke-width:0.99999994;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+         style="fill:#cdde87;fill-opacity:1;stroke:#89a02c;stroke-width:0.99999994;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
          id="rect4177"
-         width="279.77991"
+         width="137.23105"
          height="35.394798"
-         x="16.947622"
+         x="103.12122"
+         y="440.73911"
+         rx="5.0000005"
+         ry="5" />
+      <text
+         xml:space="preserve"
+         style="font-size:11.90415096px;font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Fabryka;-inkscape-font-specification:Fabryka"
+         x="171.47737"
+         y="461.51968"
+         id="text4179"><tspan
+           sodipodi:role="line"
+           x="171.47737"
+           y="461.51968"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;font-family:Museo Sans;-inkscape-font-specification:Museo Sans"
+           id="tspan4181">present</tspan></text>
+    </g>
+    <g
+       id="g4214"
+       transform="translate(141.60517,-17.279095)">
+      <rect
+         ry="5"
+         rx="5.0000005"
+         y="440.73911"
+         x="103.12122"
+         height="35.394798"
+         width="107.43269"
+         id="rect4216"
+         style="fill:#de8787;fill-opacity:1;stroke:#c83737;stroke-width:0.99999994;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+      <text
+         id="text4218"
+         y="461.51968"
+         x="156.84763"
+         style="font-size:11.90415096px;font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Fabryka;-inkscape-font-specification:Fabryka"
+         xml:space="preserve"><tspan
+           id="tspan4220"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;font-family:Museo Sans;-inkscape-font-specification:Museo Sans"
+           y="461.51968"
+           x="156.84763"
+           sodipodi:role="line">not present</tspan></text>
+    </g>
+    <g
+       id="g4476"
+       transform="translate(-23.917996,92.255125)">
+      <g
+         transform="translate(13.084283,0)"
+         id="g4265">
+        <rect
+           style="fill:#ffcc00;fill-opacity:1;stroke:#aa8800;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+           id="rect4230"
+           width="116.00001"
+           height="74.936142"
+           x="372.04697"
+           y="243.76074"
+           rx="5.0000005"
+           ry="5" />
+        <text
+           id="text4218-0"
+           y="269.62225"
+           x="430.05133"
+           style="font-size:11.90415096px;font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Fabryka;-inkscape-font-specification:Fabryka"
+           xml:space="preserve"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;font-family:Museo Sans;-inkscape-font-specification:Museo Sans"
+             y="269.62225"
+             x="430.05133"
+             sodipodi:role="line"
+             id="tspan4257">present</tspan><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;font-family:Museo Sans;-inkscape-font-specification:Museo Sans"
+             y="284.50244"
+             x="430.05133"
+             sodipodi:role="line"
+             id="tspan4261">detection page</tspan><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;font-family:Museo Sans;-inkscape-font-specification:Museo Sans"
+             y="299.38263"
+             x="430.05133"
+             sodipodi:role="line"
+             id="tspan4263">(Modernizr + JS)</tspan></text>
+      </g>
+      <path
+         sodipodi:nodetypes="ccc"
+         id="path4272"
+         d="m 380.98942,352.76074 59.72495,0 0,-31"
+         style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Lend)" />
+    </g>
+    <g
+       transform="translate(53.534658,55.047434)"
+       id="g4458">
+      <rect
+         style="fill:#ffcc00;fill-opacity:1;stroke:#aa8800;stroke-width:0.99999994;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+         id="rect4460"
+         width="226.6261"
+         height="35.394798"
+         x="43.524529"
          y="440.73911"
          rx="5"
          ry="5" />
@@ -245,14 +350,55 @@
          style="font-size:11.90415096px;font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Fabryka;-inkscape-font-specification:Fabryka"
          x="156.84763"
          y="461.51968"
-         id="text4179"><tspan
+         id="text4462"><tspan
            sodipodi:role="line"
            x="156.84763"
            y="461.51968"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;font-family:Museo Sans;-inkscape-font-specification:Museo Sans"
-           id="tspan4181">check for &quot;<tspan
-   id="tspan4183"
-   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;text-anchor:middle;font-family:Museo Sans;-inkscape-font-specification:Museo Sans Bold">devcaps&quot; </tspan>cookie</tspan></text>
+           id="tspan4464">customize page based on devcaps</tspan></text>
     </g>
+    <g
+       id="g4485"
+       transform="translate(-23.917996,232.25513)">
+      <g
+         id="g4487"
+         transform="translate(13.084283,0)">
+        <rect
+           ry="5"
+           rx="5.0000005"
+           y="243.76074"
+           x="372.04697"
+           height="74.936142"
+           width="116.00001"
+           id="rect4489"
+           style="fill:#ffcc00;fill-opacity:1;stroke:#aa8800;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+        <text
+           xml:space="preserve"
+           style="font-size:11.90415096px;font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Fabryka;-inkscape-font-specification:Fabryka"
+           x="430.05133"
+           y="269.62225"
+           id="text4491"><tspan
+             id="tspan4497"
+             sodipodi:role="line"
+             x="430.05133"
+             y="269.62225"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;font-family:Museo Sans;-inkscape-font-specification:Museo Sans">present</tspan><tspan
+             sodipodi:role="line"
+             x="430.05133"
+             y="284.50244"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;font-family:Museo Sans;-inkscape-font-specification:Museo Sans"
+             id="tspan4506">device optimized</tspan><tspan
+             sodipodi:role="line"
+             x="430.05133"
+             y="299.38263"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;font-family:Museo Sans;-inkscape-font-specification:Museo Sans"
+             id="tspan4508">page</tspan></text>
+      </g>
+    </g>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Lend)"
+       d="m 326.87895,513.01587 31.5,0"
+       id="path4510"
+       sodipodi:nodetypes="cc" />
   </g>
 </svg>
