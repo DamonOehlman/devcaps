@@ -1,5 +1,7 @@
 # devcaps - Device capabilities discovery
 
+It's like [Modernizr](http://modernizr.com) for the server-side.  In actual fact, the devcaps approach is simply a technique for invoking client-side detection as required and passing that information to the server side.
+
 ## Why devcaps?
 
 The devcaps project has been started for a couple of reasons:
@@ -26,15 +28,13 @@ The devcaps cookie is a string that contains data on the device capabilities tha
 
 The following are true with regards to the cookie:
 
-- A capability is defined using a [three-letter __alpha-only__ code](/devcaps/devcaps/wiki/Capability-Codes) (i.e., `DSW` for device screen width) followed by a value.
+- A capability is defined using a [three-letter __alpha-only__ code](/devcaps/devcaps/wiki/Capability-Codes) (i.e., `SCR` for device screen details) followed by a value.
 
 - Values are represented by integer values where possible:
 	- Available (1)
 	- Not Supported (0)
 
-- Multiple capabilities can be defined in the cookie.  Capabilities are delimited with a pipe (`|`) character.
-
-- The cookie can be encoded in base64 to save space. If this is the case the cookie should be prefixed with a `64:` which let's cookie deserializers know that it is encoded.
+- Multiple capabilities can be defined in the cookie.  Capabilities are delimited with a underscore (`_`) character.
 
 <a id="detection-routine"></a>
 ## Detection Routine
