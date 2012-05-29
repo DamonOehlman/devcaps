@@ -2,7 +2,7 @@
   "author": "Damon Oehlman <damon.oehlman@sidelab.com>",
   "name": "devcaps",
   "description": "Device Capabilities Detection Proxy",
-  "version": "0.1.0",
+  "version": "0.0.0",
   "main": "lib/devcaps.js",
   "repository": {
     "url": "git://github.com/DamonOehlman/devcaps.git"
@@ -12,7 +12,9 @@
   },
   "devDependencies": {
     "union": "0.3.x",
-    "request": "2.9.x"
+    "request": "2.9.x",
+    "expect.js": "0.1.x",
+    "mocha": "1.0.x"
   },
   "optionalDependencies": {},
   "engines": {
