@@ -8,7 +8,10 @@
     "url": "git://github.com/DamonOehlman/devcaps.git"
   },
   "dependencies": {
-    "debug": "*"
+    "async": "0.1.x",
+    "debug": "*",
+    "formatter": "0.1.x",
+    "getit": "0.1.7"
   },
   "devDependencies": {
     "union": "0.3.x",

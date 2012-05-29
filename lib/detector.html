@@ -8,11 +8,16 @@
 
   <title></title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
+  <script>
+  {{ modernizr }}
+  
+  function devcaps() {
+  }
+  </script>
 </head>
 
 <body onload="devcaps()">
 <form id="detector" method="post">
-    <input id="devcaps">
     <input id="devcaps" type="hidden" name="devcaps" value="" />
 </form>
 
