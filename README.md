@@ -2,6 +2,8 @@
 
 It's like [Modernizr](http://modernizr.com) for the server-side.  In actual fact, the devcaps approach is simply a technique for invoking client-side detection as required and passing that information to the server side.
 
+<a href="http://travis-ci.org/#!/DamonOehlman/devcaps"><img src="https://secure.travis-ci.org/DamonOehlman/devcaps.png" alt="Build Status"></a>
+
 ## Why devcaps?
 
 The devcaps project has been started for a couple of reasons:
