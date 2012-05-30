@@ -20,12 +20,12 @@ function devcaps() {
     for (var ii = detectItems.length; ii--; ) {
         var item = detectItems[ii];
         
-        if (Modernizr[item]) {
-            detectPasses[detectPasses.length] = item;
-        }
+        // update the passes flags
+        detectPasses[ii] = Modernizr[item] ? 1 : 0;
     }
     
-    document.getElementById('devcaps').value = detectPasses.join(',');
+    document.getElementById('devcaps').value = detectItems.join(',');
+    document.getElementById('devcaps_avail').value = detectPasses.join(',');
     document.getElementById('detector').submit();
 }
 </script>
@@ -34,6 +34,7 @@ function devcaps() {
 <body onload="devcaps()">
 <form id="detector" action="{{ url }}" method="post">
     <input id="devcaps" type="hidden" name="devcaps" value="" />
+    <input id="devcaps_avail" type="hidden" name="devcaps_avail" value="" />
 </form>
 
 <noscript>

@@ -10,9 +10,8 @@ describe('devcaps capability tests', function() {
 
     it('should display a caps detection page when cookies have not been detected', function(done) {
         request(testUrl, function(err, res) {
-            expect(err).to.not.be.ok();
             expect(res.body).to.contain('action="/test"');
-            done();
+            done(err);
         });
     });
 
@@ -20,12 +19,17 @@ describe('devcaps capability tests', function() {
         var requestData = {
                 url: testUrl,
                 form: {
-                    devcaps: 'canvas,websockets'
+                    devcaps: 'canvas,websockets',
+                    devcaps_avail: '1,0'
                 }
             };
         
         request.post(requestData, function(err, res) {
-            // console.log(res);
+            var setCookieHeader = res.headers['set-cookie'];
+            
+            expect(setCookieHeader).to.be.ok();
+            expect(setCookieHeader).to.contain('devcaps=+2d-sk; path=/; httponly');
+            done(err);
         });
     });
 });
