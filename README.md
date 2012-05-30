@@ -19,7 +19,7 @@ The devcaps handshake process is similar in execution to the way authentication 
 1. Check for a [devcaps cookie](#cookie-format).
 2. If the devcaps cookie does not exist, then run the [detection routine](#detection-routine).
 
-A [reference implementation](/devcaps/connect-devcaps) of this early version of the process has been written for the [Node.js](http://nodejs.org/) [Connect](http://senchalabs.github.com/connect/) framework.
+This repository includes a reference implementation for NodeJS for the devcaps implementation which _should_ be compatible with [connect](https://github.com/senchalabs/connect) middleware, although it has been tested primarily with [union](https://github.com/flatiron/union).
 
 ## Cookie Format
 
@@ -29,7 +29,7 @@ The devcaps cookie format has been revised and is now even more compact. The fol
 +2d+sk
 ```
 
-The above cookie is an example of Modernizr properties that have a [shortcode](/DamonOehlman/devcaps/blob/master/lib/codes.js) associated with it. If a Modernizr capability is tested for that does not have a corresponding shortcode, this will be included in the cookie in it's full form. 
+The above cookie (which indicates that both canvas and websockets are supported) is an example of Modernizr properties that have a [shortcode](/DamonOehlman/devcaps/blob/master/lib/codes.js) associated with it. If a Modernizr capability is tested for that does not have a corresponding shortcode, this will be included in the cookie in it's full form. 
 
 For example, `+2d+sk+canvastext` would be a valid cookie value if a test for `Modernizr.canvastext` had been requested and passed.  Of course, if a short code is eventually included canvastext then the shortcode would be used here instead.
 
