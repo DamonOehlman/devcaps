@@ -19,7 +19,7 @@ module.exports = function(detect, callback) {
         
     router.get('/test', function() {
         this.res.writeHead(200, { 'Content-Type': 'text/plain' });
-        this.res.end('caps data found');
+        this.res.end(JSON.stringify(this.req.devcaps));
     });
         
     server.listen(3000, callback);

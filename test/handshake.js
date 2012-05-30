@@ -58,7 +58,7 @@ describe('devcaps capability tests', function() {
     
     it('should now display the actual page now that all we have sufficient caps data', function(done) {
         request(testUrl, { jar: j }, function(err, res) {
-            expect(res.body).to.equal('caps data found');
+            expect(res.body).to.equal('{"text":"+2d+sk+3d","canvas":true,"websockets":true,"webgl":true}');
             done(err);
         });
     });
