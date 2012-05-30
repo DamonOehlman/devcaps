@@ -5,13 +5,13 @@ var server = require('./helpers/server'),
     
 describe('devcaps capability tests', function() {
     before(function(done) {
-        server({}, done);
+        server('canvas,webgl,websockets', done);
     });
 
     it('should display a caps detection page when cookies have not been detected', function(done) {
         request(testUrl, function(err, res) {
             expect(err).to.not.be.ok();
-            expect(res.body).to.contain('id="detector"');
+            expect(res.body).to.contain('action="/test"');
             done();
         });
     });
@@ -19,8 +19,8 @@ describe('devcaps capability tests', function() {
     it('should set a cookie when it receives devcaps data in a post', function(done) {
         var requestData = {
                 url: testUrl,
-                data: {
-                    devcaps: 'FBX'
+                form: {
+                    devcaps: 'canvas,websockets'
                 }
             };
         

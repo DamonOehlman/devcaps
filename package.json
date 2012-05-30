@@ -9,11 +9,15 @@
   },
   "dependencies": {
     "async": "0.1.x",
+    "cookies": "0.3.x",
     "debug": "*",
     "formatter": "0.1.x",
-    "getit": "0.1.7"
+    "getit": "0.1.7",
+    "qs": "0.5.x"
   },
   "devDependencies": {
+    "connect": "2.3.x",
+    "director": "1.0.x",
     "union": "0.3.x",
     "request": "2.9.x",
     "expect.js": "0.1.x",

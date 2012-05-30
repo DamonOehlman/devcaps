@@ -4,20 +4,35 @@
 <!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
 <head>
-  <meta charset="utf-8">
+<meta charset="utf-8">
 
-  <title></title>
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <script>
-  {{ modernizr }}
-  
-  function devcaps() {
-  }
-  </script>
+<title></title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<script>
+var reCommaDelim = /\,\s*/,
+    detectItems = '{{ detect }}'.split(reCommaDelim),
+    detectPasses = [];
+
+{{ modernizr }}
+
+function devcaps() {
+    // iterate through the detection
+    for (var ii = detectItems.length; ii--; ) {
+        var item = detectItems[ii];
+        
+        if (Modernizr[item]) {
+            detectPasses[detectPasses.length] = item;
+        }
+    }
+    
+    document.getElementById('devcaps').value = detectPasses.join(',');
+    document.getElementById('detector').submit();
+}
+</script>
 </head>
 
 <body onload="devcaps()">
-<form id="detector" method="post">
+<form id="detector" action="{{ url }}" method="post">
     <input id="devcaps" type="hidden" name="devcaps" value="" />
 </form>
 
