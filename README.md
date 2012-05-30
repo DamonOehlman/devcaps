@@ -39,6 +39,6 @@ The following are true with regards to the cookie:
 <a id="detection-routine"></a>
 ## Detection Routine
 
-![](/DamonOehlman/devcaps/raw/master/assets/devcaps-process.png)
+![](/DamonOehlman/devcaps/raw/master/design/devcaps-process.png)
 
 To be completed.
