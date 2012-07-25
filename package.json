@@ -12,7 +12,7 @@
     "cookies": "0.3.x",
     "debug": "*",
     "formatter": "0.1.x",
-    "getit": "0.1.7",
+    "getit": "0.1.x",
     "qs": "0.5.x"
   },
   "devDependencies": {
