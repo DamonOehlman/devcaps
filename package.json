@@ -13,7 +13,7 @@
     "debug": "*",
     "formatter": "0.1.x",
     "getit": "0.1.x",
-    "qs": "0.5.x"
+    "qs": "1.2.x"
   },
   "devDependencies": {
     "connect": "2.3.x",
