@@ -15,6 +15,7 @@
     "getit": "^0.4.2",
     "qs": "1.2.x"
   },
+  "stability": "experimental",
   "devDependencies": {
     "connect": "^2.25.5",
     "director": "^1.2.3",

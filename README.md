@@ -7,7 +7,7 @@ detection as required and passing that information to the server side.
 
 [![NPM](https://nodei.co/npm/devcaps.png)](https://nodei.co/npm/devcaps/)
 
-[![Build Status](https://img.shields.io/travis/DamonOehlman/devcaps.svg?branch=master)](https://travis-ci.org/DamonOehlman/devcaps) 
+[![experimental](https://img.shields.io/badge/stability-experimental-red.svg)](https://github.com/dominictarr/stability#experimental) [![Build Status](https://img.shields.io/travis/DamonOehlman/devcaps.svg?branch=master)](https://travis-ci.org/DamonOehlman/devcaps) 
 
 ## Why devcaps?
 
