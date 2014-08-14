@@ -16,12 +16,12 @@
     "qs": "1.2.x"
   },
   "devDependencies": {
-    "connect": "2.3.x",
-    "director": "1.0.x",
-    "union": "0.3.x",
-    "request": "2.9.x",
-    "expect.js": "0.1.x",
-    "mocha": "1.0.x"
+    "connect": "^2.25.5",
+    "director": "^1.2.3",
+    "expect.js": "^0.3.1",
+    "mocha": "^1.21.4",
+    "request": "^2.40.0",
+    "union": "^0.4.2"
   },
   "optionalDependencies": {},
   "engines": {
