@@ -3,7 +3,7 @@
   "name": "devcaps",
   "description": "Device Capabilities Detection Proxy",
   "version": "0.0.0",
-  "main": "lib/devcaps.js",
+  "main": "index.js",
   "repository": {
     "url": "git://github.com/DamonOehlman/devcaps.git"
   },
