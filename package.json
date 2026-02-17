@@ -13,7 +13,7 @@
     "debug": "*",
     "formatter": "^0.4.1",
     "getit": "^0.4.2",
-    "qs": "1.2.x"
+    "qs": "6.14.2"
   },
   "stability": "experimental",
   "devDependencies": {
